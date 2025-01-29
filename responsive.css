@@ -1,0 +1,64 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        justify-content: flex-start;
+        height: 350px;
+    }
+
+    .card {
+        width: 120px;
+    }
+
+    input:checked+label {
+        width: 80%;
+    }
+
+    .card>.row>.description {
+        width: calc(100% - 80px);
+    }
+
+    .description h4 {
+        font-size: 1.1em;
+    }
+
+    .description p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 10px;
+    }
+
+    .container {
+        height: 300px;
+    }
+
+    .card {
+        width: 100px;
+        border-radius: 1.5rem;
+    }
+
+    input:checked+label {
+        width: 85%;
+    }
+
+    .card>.row>.icon {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .card>.row>.description {
+        height: 70px;
+    }
+
+    .description h4 {
+        font-size: 1em;
+    }
+
+    .description p {
+        font-size: 0.75em;
+    }
+}
