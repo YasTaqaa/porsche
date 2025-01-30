@@ -61,8 +61,6 @@ nav a:hover {
 .card {
     width: 80px;
     border-radius: 2rem;
-    background-size: cover;
-    background-position: center;
     cursor: pointer;
     overflow: hidden;
     margin: 0;
@@ -72,6 +70,17 @@ nav a:hover {
     flex-shrink: 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
+    height: 100%;
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
 }
 
 .card>.row {
@@ -81,6 +90,7 @@ nav a:hover {
     align-items: center;
     position: relative;
     padding: 15px;
+    z-index: 1;
 }
 
 .card>.row>.icon {
@@ -135,22 +145,6 @@ input:checked+label {
 input:checked+label .description {
     opacity: 1 !important;
     transform: translateY(0) !important;
-}
-
-.card[for="c1"] {
-    background-image: url('images/iris.webp');
-}
-
-.card[for="c2"] {
-    background-image: url('images/3214479249.jpg');
-}
-
-.card[for="c3"] {
-    background-image: url('images/front-left-side-47.webp');
-}
-
-.card[for="c4"] {
-    background-image: url('images/six-20things-20you-20need-20to-20know-20about-20the-20964-20porsche-20911-201.avif');
 }
 
 .container::-webkit-scrollbar {
