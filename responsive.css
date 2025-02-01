@@ -1,24 +1,37 @@
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
-        justify-content: flex-start;
-        height: 350px;
+        height: 200px;
+        padding: 5px;
+        gap: 10px;
     }
 
     .card {
-        width: 120px;
+        width: 50px;
+        border-radius: 1.5rem;
     }
 
     input:checked+label {
-        width: 80%;
+        width: 200px;
+    }
+
+    .card>.row {
+        padding: 10px;
+    }
+
+    .card>.row>.icon {
+        width: 30px;
+        height: 30px;
+        margin: 1px;
     }
 
     .card>.row>.description {
-        width: calc(100% - 80px);
+        width: 220px;
+        height: 70px;
     }
 
     .description h4 {
-        font-size: 1.1em;
+        font-size: 1rem;
     }
 
     .description p {
@@ -26,36 +39,21 @@
     }
 }
 
-@media (max-width: 480px) {
-    .wrapper {
-        padding: 10px;
-    }
-
+@media screen and (max-width: 480px) {
     .container {
-        height: 300px;
-    }
-
-    .card {
-        width: 100px;
-        border-radius: 1.5rem;
+        height: 200px;
     }
 
     input:checked+label {
-        width: 85%;
-    }
-
-    .card>.row>.icon {
-        width: 40px;
-        height: 40px;
-        margin: 10px;
+        width: 200px;
     }
 
     .card>.row>.description {
-        height: 70px;
+        width: 100px;
     }
 
     .description h4 {
-        font-size: 1em;
+        font-size: 0.9rem;
     }
 
     .description p {
