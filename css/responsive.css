@@ -61,3 +61,20 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .card2 {
+        flex-basis: 33.33%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card2 {
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card2 {
+        flex-basis: 100%; 
+    }
+}
