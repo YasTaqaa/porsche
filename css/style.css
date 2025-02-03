@@ -188,18 +188,22 @@ input:checked+label .description {
     max-width: 100%;
     margin: 20px auto;
     padding: 0 20px;
+    gap: 20px;
 }
+
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
     text-align: center;
     font-family: "porsche";
-    font-size: 40px;
 }
 
 .card2 {
-    flex-basis: 20%;
-    margin: 10px;
+    flex: 1 1 20%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -207,13 +211,13 @@ h2 {
     background-color: #fff;
     padding: 15px;
     text-align: center;
+    min-height: 400px;
 }
 
 .card2 img {
     height: 200px;
-    max-height: 100%;
-    width: 350px;
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -223,6 +227,7 @@ h2 {
 }
 
 .card2 p {
+    flex-grow: 1;
     margin: 0 0 15px;
 }
 
@@ -233,7 +238,9 @@ h2 {
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 3px;
+    margin-top: auto; 
 }
+
 
 .card2 a:hover {
     background-color: #444;
