@@ -302,3 +302,52 @@ h2 {
 .card3 a:hover {
     background-color: #444;
 }
+
+
+
+.showcase {
+    min-height: 400px;
+    color: #fff;
+}
+
+.showcase h1 {
+    font-family: "porsche";
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.containerspecs {
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.containerspecs p {
+    margin-bottom: 20px;
+    font-family: "porsche";
+    text-align: center;
+    font-size: 25px;
+}
+
+.containerspecs img {
+    height: 100%;
+    width: 100%;
+}
+
+.specs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.specs div {
+    background: #fff;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.specs h2 {
+    margin-top: 0;
+}
