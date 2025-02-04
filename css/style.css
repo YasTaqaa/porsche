@@ -35,12 +35,11 @@ nav {
     color: #fff;
     padding: 15px 0;
     text-align: center;
-    width: 100%;
 }
 
 nav a {
     font-family: "porsche";
-    font-size: 17px;
+    font-size: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -53,8 +52,8 @@ nav a {
     padding: 10px;
     outline: none;
     border-radius: 10px;
-    min-width: 150px;
-    min-height: 25px;
+    min-width: 130px;
+    min-height: 30px;
     text-align: center;
     text-decoration: none;
 }
@@ -320,7 +319,6 @@ h2 {
 .containerspecs {
     margin: auto;
     overflow: hidden;
-    width: 80%;
 }
 
 .containerspecs p {
@@ -338,7 +336,7 @@ h2 {
 .specs {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 20px ;
 }
 
 .specs div {
@@ -348,6 +346,6 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.specs h2 {
+.specs h1 {
     margin-top: 0;
 }
